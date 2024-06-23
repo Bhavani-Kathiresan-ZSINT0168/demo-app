@@ -1,6 +1,6 @@
 {
   "name": "npm-ui-displaying-special-package",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A sample package to display UI",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bhavani-Kathiresan-ZSINT0168/demo-app.git"
+    "url": "https://github.com/Bhavani-Kathiresan-ZSINT0168/demo-app.git"
   },
   "bugs": {
     "url": "https://github.com/Bhavani-Kathiresan-ZSINT0168/demo-app/issues"
