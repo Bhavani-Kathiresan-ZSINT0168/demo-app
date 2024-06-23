@@ -3,7 +3,9 @@
   "version": "1.0.6",
   "description": "A sample package to display UI",
   "main": "index.js",
-  "type": "module",
+  "bin": {
+    "npm-ui-display": "./index.js"
+  },
   "scripts": {
     "start": "node index.js"
   },
