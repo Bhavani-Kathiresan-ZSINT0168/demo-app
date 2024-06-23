@@ -2,7 +2,7 @@ import { exec } from "child_process";
 import path from "path";
 
 // Define paths
-const frontendPath = path.join(__dirname, "frontend", "myapp");
+const frontendPath = path.join(__dirname, "frontend", "sampleapp");
 const backendPath = path.join(__dirname, "backend");
 
 // Install and run backend
