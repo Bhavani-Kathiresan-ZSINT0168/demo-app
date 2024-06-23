@@ -4,17 +4,18 @@
     "path": "^0.12.7",
     "url": "^0.11.3"
   },
-  "name": "npm-demo-001",
+  "name": "npm-ui-displaying-special-package",
   "version": "1.0.1",
   "description": "A sample package to display ui",
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "test": "npm run"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Bhavani-Kathiresan-ZSINT0168/demo-app.git"
+    "url": "git+https://github.com/Bhavani-Kathiresan-ZSINT0168/demo-app.git"
   },
   "keywords": [
     "ui",
