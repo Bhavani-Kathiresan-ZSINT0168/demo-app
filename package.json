@@ -1,10 +1,10 @@
 {
   "name": "npm-ui-displaying-special-package",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A sample package to display UI",
   "main": "index.js",
   "bin": {
-    "npm-ui-display": "./index.js"
+    "start-ui": "./index.js"
   },
   "scripts": {
     "start": "node index.js"
