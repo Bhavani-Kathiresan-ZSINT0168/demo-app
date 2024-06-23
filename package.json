@@ -1,10 +1,10 @@
 {
   "name": "npm-ui-displaying-special-package",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "A sample package to display UI",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "keywords": [
@@ -14,15 +14,10 @@
   "author": "Bhavanishankaran Kathiresan",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2",
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    "sequelize": "^6.28.0",
-    "pg": "^8.7.1",
+    "child_process": "^1.0.2",
     "path": "^0.12.7",
     "url": "^0.11.0"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Bhavani-Kathiresan-ZSINT0168/demo-app.git"

@@ -13,16 +13,20 @@ const backendPath = path.join(__dirname, "backend");
 exec("npm run build", { cwd: frontendPath }, (err, stdout, stderr) => {
   if (err) {
     console.error(`Error building frontend: ${err.message}`);
+    console.error(`Build stderr: ${stderr}`);
     return;
   }
   console.log(`Frontend build output: ${stdout}`);
+  console.log(`Frontend build stderr: ${stderr}`);
 
   // Start the backend server
   exec("node index.js", { cwd: backendPath }, (err, stdout, stderr) => {
     if (err) {
       console.error(`Error starting backend: ${err.message}`);
+      console.error(`Backend stderr: ${stderr}`);
       return;
     }
     console.log(`Backend server output: ${stdout}`);
+    console.log(`Backend server stderr: ${stderr}`);
   });
 });
